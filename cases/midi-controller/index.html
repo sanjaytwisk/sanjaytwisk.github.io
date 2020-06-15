@@ -1,196 +1,377 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
+  <head>
     <meta charset="utf-8" />
     <title>Twisk Interactive</title>
     <meta name="generator" content="Grav" />
-<meta name="description" content="Twisk Interactive develops rich interactive products for the web, from responsive websites to fully customized web applications" />
-<meta name="keywords" content="HTML5, CSS3, JavaScript, Wordpress, VueJS, Node, UX, Design" />
-<meta name="author" content="Sanjay Twisk" />
-<meta name="robots" content="index, follow" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta
+      name="description"
+      content="Twisk Interactive develops rich interactive products for the web, from responsive websites to fully customized web applications"
+    />
+    <meta
+      name="keywords"
+      content="HTML5, CSS3, JavaScript, Wordpress, VueJS, Node, UX, Design"
+    />
+    <meta name="author" content="Sanjay Twisk" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <link rel="canonical" href="http://localhostcases/midi-controller" />
     <!-- FAVICON META -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/user/themes/twiskimages/favicon/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/user/themes/twiskimages/favicon/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/user/themes/twiskimages/favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/user/themes/twiskimages/favicon/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/user/themes/twiskimages/favicon/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/user/themes/twiskimages/favicon/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/user/themes/twiskimages/favicon/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/user/themes/twiskimages/favicon/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/user/themes/twiskimages/favicon/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="/user/themes/twiskimages/favicon/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/user/themes/twiskimages/favicon/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="/user/themes/twiskimages/favicon/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="/user/themes/twiskimages/favicon/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="/user/themes/twiskimages/favicon/manifest.json">
-    <link rel="mask-icon" href="/user/themes/twiskimages/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/user/themes/twiskimages/favicon/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-TileImage" content="/user/themes/twiskimages/favicon/mstile-144x144.png">
-    <meta name="msapplication-config" content="/user/themes/twiskimages/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/user/themes/twiskimages/favicon/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/user/themes/twiskimages/favicon/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/user/themes/twiskimages/favicon/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/user/themes/twiskimages/favicon/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/user/themes/twiskimages/favicon/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/user/themes/twiskimages/favicon/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/user/themes/twiskimages/favicon/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/user/themes/twiskimages/favicon/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/user/themes/twiskimages/favicon/apple-touch-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/user/themes/twiskimages/favicon/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/user/themes/twiskimages/favicon/android-chrome-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/user/themes/twiskimages/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/user/themes/twiskimages/favicon/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="manifest"
+      href="/user/themes/twiskimages/favicon/manifest.json"
+    />
+    <link
+      rel="mask-icon"
+      href="/user/themes/twiskimages/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link
+      rel="shortcut icon"
+      href="/user/themes/twiskimages/favicon/favicon.ico"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta
+      name="msapplication-TileImage"
+      content="/user/themes/twiskimages/favicon/mstile-144x144.png"
+    />
+    <meta
+      name="msapplication-config"
+      content="/user/themes/twiskimages/favicon/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
 
     <!-- CSS -->
-                                    <link href="/assets/user/themes/twisk/vendor/pure-grids-responsive.min.css" type="text/css" rel="stylesheet">
-<link href="/assets/user/themes/twisk/vendor/san-francisco.css" type="text/css" rel="stylesheet">
-<link href="/assets/user/themes/twisk/css/main.css" type="text/css" rel="stylesheet">
-
+    <link
+      href="/assets/user/themes/twisk/vendor/pure-grids-responsive.min.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <link
+      href="/assets/user/themes/twisk/vendor/san-francisco.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <link
+      href="/assets/user/themes/twisk/css/main.css"
+      type="text/css"
+      rel="stylesheet"
+    />
 
     <!-- JS -->
-                            <script src="/assets/user/themes/twisk/vendor/vue.min.js"></script>
-<script src="/assets/user/themes/twisk/js/app.js"></script>
-
-
-</head>
-<body id="top" class="">
+    <script src="/assets/user/themes/twisk/vendor/vue.min.js"></script>
+    <script src="/assets/user/themes/twisk/js/app.js"></script>
+  </head>
+  <body id="top" class="">
     <div id="singularity" v-el:app>
-		<nav v-el:menu class="isTop">
-			<div class="container pure-g">
-				<div class="pure-u-1">
-					<div id="logo" class="float-left">
-						<h1>Twisk Interactive</h1>
-						<a href="/"></a>
-					</div>
-					<button class="btn dark float-right" @click="contactMe">Contact</button>
-                                            <a href="/" class="btn dark float-right">Home</a>
-                    				</div>
-			</div>
-		</nav>
-        <header v-el:header class="top case">
-            <div v-el:header-background class="background" style="background-image: url(images/midi/header.jpg);"></div>
-            <div v-el:header-content class="pure-g container">
-                    <div class="pure-u-1">
-        <h2>Designing and building a MIDI controller</h2>
-		<div class="case-info pure-g">
-			<div class="pure-u-1 pure-u-sm-1-2">
-				<h3>Context</h3>
-				<p>
-					Create your own design objective and design it following a three step design process consisting of the phases connect, concept and create. The objective’s deliverable and design methods have to be outside your comfort zone
-				</p>
-			</div>
-			<div class="pure-u-1 pure-u-sm-1-2">
-				<h3>Keywords</h3>
-				<p>
-					Concepting, Interaction Design, Process, Product Design, Prototyping, Arduino, Ableton Live, MIDI, Vacuum Former, Soldering
-				</p>
-			</div>
-		</div>
-    </div>
+      <nav v-el:menu class="isTop">
+        <div class="container pure-g">
+          <div class="pure-u-1">
+            <div id="logo" class="float-left">
+              <h1>Twisk Interactive</h1>
+              <a href="/"></a>
             </div>
-        </header>
+            <button class="btn dark float-right" @click="contactMe">
+              Contact
+            </button>
+            <a href="/" class="btn dark float-right">Home</a>
+          </div>
+        </div>
+      </nav>
+      <header v-el:header class="top case">
+        <div
+          v-el:header-background
+          class="background"
+          style="background-image: url(/images/midi-controller/header.jpg);"
+        ></div>
+        <div v-el:header-content class="pure-g container">
+          <div class="pure-u-1">
+            <h2>Designing and building a MIDI controller</h2>
+            <div class="case-info pure-g">
+              <div class="pure-u-1 pure-u-sm-1-2">
+                <h3>Context</h3>
+                <p>
+                  Create your own design objective and design it following a
+                  three step design process consisting of the phases connect,
+                  concept and create. The objective’s deliverable and design
+                  methods have to be outside your comfort zone
+                </p>
+              </div>
+              <div class="pure-u-1 pure-u-sm-1-2">
+                <h3>Keywords</h3>
+                <p>
+                  Concepting, Interaction Design, Process, Product Design,
+                  Prototyping, Arduino, Ableton Live, MIDI, Vacuum Former,
+                  Soldering
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
 
-        	        <main class="">
-	                
-            <!-- <div id=""></div> -->
-		<section class="module    "
-            >
-        	<div class="pure-g container"  >
-	<div class="pure-u-1 pure-u-md-1-2">
-					<div class="img left" style="background-image: url(/cases/midi-controller/_01/image01.jpg);"></div>
-			</div>
-	<div class="pure-u-1 pure-u-md-1-2">
-		<div class="text-block right">
-			<h2>The Idea</h2>
-<p>With this project I wanted to combine interaction design with my other passion: music. Based on my live performance experience with Ableton Live(software) and a MIDI controller soon came the idea to design and build my own controller. This was a great opportunity for me to design a real product and challenge myself both in the area of design and prototyping. In order to do this I had to step outside my comfort zone and learn about product design, electronics and programming.</p>
-		</div>
-	</div>
-</div>
-		</section>
-            <!-- <div id=""></div> -->
-		<section class="module  lighter  "
-            >
-        	<div class="pure-g container" >
-	<div class="pure-u-1 pure-u-md-1-2">
-		<div class="text-block">
-			<h2>Midi</h2>
-<p>So, what is MIDI? MIDI stands for “Musical Instrument Digital Interface” and is a protocol used by a variety of devices like synthesizers, drum computers and computer software to communicate with each other.</p>
-<p>In the context of this project the controller sends control values or note values to the software on the computer using rotary encoders, buttons and faders. The signals are then interpreted and used to control the parameters or notes of a digital music devices like a synthesizer.</p>
-<p>Using a controller is more intuitive than using a mouse and keyboard, giving the musician space to enhance his creativity and workflow.</p>
-		</div>
-	</div>
-	<div class="pure-u-1 pure-u-md-1-2">
-				<img class="center center" src="/cases/midi-controller/_02/image01.png"
-		style="
-				 max-height:345px; " />
-			</div>
-</div>
-		</section>
-            <!-- <div id=""></div> -->
-		<section class="module    "
-            >
-        	<div class="pure-g container"  >
-	<div class="pure-u-1 pure-u-md-1-2">
-				<img class=" " src="/cases/midi-controller/_03/image01.png"
-			style="
-						" />
-			</div>
-	<div class="pure-u-1 pure-u-md-1-2">
-		<div class="text-block right">
-			<h2>Concept</h2>
-<p>Bases on the capacity of existing controllers and my own competencies I came up with the idea to design an add-on controller to use next to an APC40 controller by Akai. Adding the controller to a setup with an APC40, the user has more control over his effects.</p>
-<p>This concept was realistic and still a challenge. It consists of three rotary encoders with a LED ring. The encoders are used to control specific effects and the LED rings function as value indicators. Using a big push button the user can reset the values to their preset values</p>
-		</div>
-	</div>
-</div>
-		</section>
-            <!-- <div id=""></div> -->
-		<section class="module   cover "
-            style="height:835px;background-image: url(/cases/midi-controller/_04/image01.jpg);" >
-        	<div class="pure-g container">
-	<div class="pure-u-1">
-		<div class="text-block">
-			<h2>Product Design</h2>
-<p>I started by drawing different perspective sketches. They were rough idea’s on the form and properties of the first controller idea. Because the sketching didn’t trigger my creativity I very soon went to 3D modeling sofware called Cinema 4D.
-I never worked with the sofware before, but its ease of use and powerful rendering engine were great for generating new idea’s and designs. After digitising the first idea’s and tweaking it over and over again I got to the final design for my controller.</p>
-		</div>
-	</div>
-</div>
-		</section>
-            <!-- <div id=""></div> -->
-		<section class="module  branded  "
-            >
-        	<div class="pure-g container" >
-	<div class="pure-u-1 pure-u-md-1-2">
-		<div class="text-block">
-			<h2>Prototyping</h2>
-<p>I used the Arduino Uno to develop a functional prototype of my designs. The Arduino Uno prototyping board uses a simple programming interface to create prototypes on the fly. It is capable to communicate with other devices using usb and it has multiple digital and analog I/O’s.</p>
-<p>In combination with a push button, a rotary encoder and some additional software my functional prototype came to life.</p>
-		</div>
-	</div>
-	<div class="pure-u-1 pure-u-md-1-2">
-				<img class=" " src="/cases/midi-controller/_05/image01.png"
-		style="
-				 max-height:318px; " />
-			</div>
-</div>
-		</section>
-            <!-- <div id=""></div> -->
-		<section class="module   cover center"
-            style="height:835px;background-image: url(/cases/midi-controller/_06/image01.jpg);" >
-        	<div class="pure-g container">
-	<div class="pure-u-1">
-		<div class="text-block">
-			<h2>Final Product</h2>
-<p>As you can see the final product is a simple version of the initial design. Using just one encoder and a push button was challenging enough and gives a good impression of the core function of the product.</p>
-<p>I used the 3D model and a milling machine to create a high density foam version of my design. With this foam model I was able to form a plastic casing using a vacuum forming machine.oller.</p>
-		</div>
-	</div>
-</div>
-		</section>
-    	        </main>
-        
-        	        <footer id="footer">
-				<div class="pure-g container">
-				    <div class="pure-u-1">
-				        <span>Copyright&copy; 2016 Twisk Interactive</span>
-                        <span class="float-right">Built with <a href="https://getgrav.org/">Grav</a></span>
-				    </div>
-				</div>
-	        </footer>
+      <main class="">
+        <!-- <div id=""></div> -->
+        <section class="module">
+          <div class="pure-g container">
+            <div class="pure-u-1 pure-u-md-1-2">
+              <div
+                class="img left"
+                style="
+                  background-image: url(/images/midi-controller/image01.jpg);
+                "
+              ></div>
             </div>
-            
-    </body>
+            <div class="pure-u-1 pure-u-md-1-2">
+              <div class="text-block right">
+                <h2>The Idea</h2>
+                <p>
+                  With this project I wanted to combine interaction design with
+                  my other passion: music. Based on my live performance
+                  experience with Ableton Live(software) and a MIDI controller
+                  soon came the idea to design and build my own controller. This
+                  was a great opportunity for me to design a real product and
+                  challenge myself both in the area of design and prototyping.
+                  In order to do this I had to step outside my comfort zone and
+                  learn about product design, electronics and programming.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- <div id=""></div> -->
+        <section class="module lighter">
+          <div class="pure-g container">
+            <div class="pure-u-1 pure-u-md-1-2">
+              <div class="text-block">
+                <h2>Midi</h2>
+                <p>
+                  So, what is MIDI? MIDI stands for “Musical Instrument Digital
+                  Interface” and is a protocol used by a variety of devices like
+                  synthesizers, drum computers and computer software to
+                  communicate with each other.
+                </p>
+                <p>
+                  In the context of this project the controller sends control
+                  values or note values to the software on the computer using
+                  rotary encoders, buttons and faders. The signals are then
+                  interpreted and used to control the parameters or notes of a
+                  digital music devices like a synthesizer.
+                </p>
+                <p>
+                  Using a controller is more intuitive than using a mouse and
+                  keyboard, giving the musician space to enhance his creativity
+                  and workflow.
+                </p>
+              </div>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2">
+              <img
+                class="center center"
+                src="/images/midi-controller/image02.png"
+                style="max-height: 345px;"
+              />
+            </div>
+          </div>
+        </section>
+        <!-- <div id=""></div> -->
+        <section class="module">
+          <div class="pure-g container">
+            <div class="pure-u-1 pure-u-md-1-2">
+              <img
+                class=" "
+                src="/images/midi-controller/image03.png"
+                style=""
+              />
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2">
+              <div class="text-block right">
+                <h2>Concept</h2>
+                <p>
+                  Bases on the capacity of existing controllers and my own
+                  competencies I came up with the idea to design an add-on
+                  controller to use next to an APC40 controller by Akai. Adding
+                  the controller to a setup with an APC40, the user has more
+                  control over his effects.
+                </p>
+                <p>
+                  This concept was realistic and still a challenge. It consists
+                  of three rotary encoders with a LED ring. The encoders are
+                  used to control specific effects and the LED rings function as
+                  value indicators. Using a big push button the user can reset
+                  the values to their preset values
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- <div id=""></div> -->
+        <section
+          class="module cover"
+          style="
+            height: 835px;
+            background-image: url(/images/midi-controller/image04.jpg);
+          "
+        >
+          <div class="pure-g container">
+            <div class="pure-u-1">
+              <div class="text-block">
+                <h2>Product Design</h2>
+                <p>
+                  I started by drawing different perspective sketches. They were
+                  rough idea’s on the form and properties of the first
+                  controller idea. Because the sketching didn’t trigger my
+                  creativity I very soon went to 3D modeling sofware called
+                  Cinema 4D. I never worked with the sofware before, but its
+                  ease of use and powerful rendering engine were great for
+                  generating new idea’s and designs. After digitising the first
+                  idea’s and tweaking it over and over again I got to the final
+                  design for my controller.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- <div id=""></div> -->
+        <section class="module branded">
+          <div class="pure-g container">
+            <div class="pure-u-1 pure-u-md-1-2">
+              <div class="text-block">
+                <h2>Prototyping</h2>
+                <p>
+                  I used the Arduino Uno to develop a functional prototype of my
+                  designs. The Arduino Uno prototyping board uses a simple
+                  programming interface to create prototypes on the fly. It is
+                  capable to communicate with other devices using usb and it has
+                  multiple digital and analog I/O’s.
+                </p>
+                <p>
+                  In combination with a push button, a rotary encoder and some
+                  additional software my functional prototype came to life.
+                </p>
+              </div>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2">
+              <img
+                class=" "
+                src="/images/midi-controller/image05.png"
+                style="max-height: 318px;"
+              />
+            </div>
+          </div>
+        </section>
+        <!-- <div id=""></div> -->
+        <section
+          class="module cover center"
+          style="
+            height: 835px;
+            background-image: url(/images/midi-controller/image06.jpg);
+          "
+        >
+          <div class="pure-g container">
+            <div class="pure-u-1">
+              <div class="text-block">
+                <h2>Final Product</h2>
+                <p>
+                  As you can see the final product is a simple version of the
+                  initial design. Using just one encoder and a push button was
+                  challenging enough and gives a good impression of the core
+                  function of the product.
+                </p>
+                <p>
+                  I used the 3D model and a milling machine to create a high
+                  density foam version of my design. With this foam model I was
+                  able to form a plastic casing using a vacuum forming
+                  machine.oller.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer id="footer">
+        <div class="pure-g container">
+          <div class="pure-u-1">
+            <span>Copyright&copy; 2016 Twisk Interactive</span>
+            <span class="float-right"
+              >Built with <a href="https://getgrav.org/">Grav</a></span
+            >
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
